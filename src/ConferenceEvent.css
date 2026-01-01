@@ -25,6 +25,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 10px;
     border: 1px solid lightgrey;
     border-radius: 10px;
@@ -33,6 +34,7 @@
     color: #333;
     width: 300px;
   }
+
   .text h1{
     width: 900px;
     font-size: 40px;
@@ -47,9 +49,22 @@
     
   }
   .venue_main .text {
-    font-size: 30px;
+    font-size: 25px;
+    font-weight: bold;
     color: #333;
   }
+
+  .venue_details {
+    font-size: 18px;
+    color: #000;
+  }
+
+  .button_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .quantity-value {
     margin: 0 10px;
   }
@@ -248,6 +263,7 @@
   .table_item_data tbody tr:first-child:hover {
     background-color: transparent;
   }
+
   navbar {
     display: flex;
     justify-content: space-between;
@@ -263,10 +279,12 @@
     color: #EFC16B;
     font-weight: 700;
   }
+
   .nav_links{
     display: flex;
-    gap: 170px;
+    gap: 80px;
   }
+
   .left_navbar{
     width: 60vw;
     display: flex;
@@ -284,6 +302,7 @@
   .nav_links a:hover {
     color: #ff9900;
   }
+
   .button_container{
     /* background-color: red; */
     width:200px ;
@@ -301,7 +320,6 @@
     transition: all 0.3s ease;
     /* background-color: transparent; */
   }
-  
   
   .navbar_event_conference{
     position: fixed;
